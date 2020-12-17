@@ -14,9 +14,12 @@ The project consists in two parts :
 ## Model training and basic inferences : Facial_keypoints.ipynb
 In this notebook, we perform data augmentation as per Balraj98's solution: our dataset quadruples in size, from ~7,000 images to over 28,000 images for training.
 Data augmentation operations include : 
-- Shifting
+- Horizontal flip
 - Rotation (12,-12)
-- 
+- Brightness augmentation 
+- Shifting 
+- Random noise augmentation
+
 We then implement two models using this augmented dataset : 
 - a CNN architecture with LeakyReLU activations and batch normalization. We exactly replicate Balraj's architecture, and re-load his model with an additional training of 50 epochs. This model has a total of over 7,000,000 parameters to train. 
 - a lighter version based on transfer learning : the MobileNet model trained on the ImageNet dataset, of which we freeze the weights and add our custom output layers. This model had half as many parameters, around 3,500,000, of which most were frozen. 
