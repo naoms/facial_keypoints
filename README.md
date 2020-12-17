@@ -3,7 +3,7 @@
 
 In this repository, we implement end-to-end face to face detection and filter application using Google Colab. 
 
-![Altered video screenshot](https://github.com/sarahj134/facial_keypoints/blob/master/demo_img.png?raw=true)
+![Altered video screenshot](https://github.com/sarahj134/facial_keypoints/blob/master/demo_img.jpg?raw=true)
 
 Our filters are applied with growing difficulty : from static webcam images and screenshots to videos, both online and offline. 
 We successfully implemented this project thanks to two key references : 
