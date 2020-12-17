@@ -25,7 +25,7 @@ We then implement two models using this augmented dataset :
 - a lighter version based on transfer learning : the MobileNet model trained on the ImageNet dataset, of which we freeze the weights and add our custom output layers. This model had half as many parameters, around 3,500,000, of which most were frozen. 
 
 
-We saved our best models for both tentatives into the "models" directory. 
+We saved our best models for both tentatives into the "models" directory because they were too heavy. 
 
 In the last part of the notebook, you will be able to visualise keypoint prediction for both models, as well as filter application for one and several people. For this part we tweaked Rohit Agrawal's filter implementation, adding our custom scaling factors to improve filter robustness across various image scales. 
 
