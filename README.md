@@ -1,4 +1,4 @@
-# Facial_keypoints detection and filter application
+# Facial keypoints detection and filter application
 
 
 In this repository, we implement end-to-end face to face detection and filter application using Google Colab. 
