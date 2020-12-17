@@ -19,7 +19,7 @@ Data augmentation operations include :
 - 
 We then implement two models using this augmented dataset : 
 - a CNN architecture with LeakyReLU activations and batch normalization. We exactly replicate Balraj's architecture, and re-load his model with an additional training of 50 epochs. This model has a total of over 7,000,000 parameters to train. 
-- a lighter version based on transfer learning : the MobileNet model trained on the ImageNet dataset, of which we freeze the weights and add our custom output layers. 
+- a lighter version based on transfer learning : the MobileNet model trained on the ImageNet dataset, of which we freeze the weights and add our custom output layers. This model had half as many parameters, around 3,500,000, of which most were frozen. 
 
 
 We saved our best models for both tentatives into the "models" directory. 
