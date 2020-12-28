@@ -2,7 +2,7 @@
 
 ## Project Presentation 
 
-The purpose of this project is to leverage construction works camera images to identify best performing concreting sites for our client.  
+The purpose of this project is to leverage construction works camera images to identify best performing concreting sites for our client. We pretend to be a team of Eleven consultants.
 First, Machine Learning models are trained to identify objects of interest : cementing area, workers, pumps...
 Then, we define an algorithm to identify whether a pump is active and how engaged workers are with the concreting zone, to ultimately derive useful and useable monitoring information for our client's operation teams. 
 
