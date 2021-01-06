@@ -36,4 +36,3 @@ In the last part of the notebook, you will be able to visualise keypoint predict
 ## Model inference on webcam pictures, screenshots, and videos, both offline and online : Filter_application.ipynb
 
 In this notebook, we use our best model for filter application in various situations. The code to process a video online, offline, and make a GIF out of it is included.
-test
